@@ -1,6 +1,6 @@
 import React from 'react';
 import { LayoutDashboard, BookOpen, PlusCircle, ShoppingBag, Settings, LogOut, Library } from 'lucide-react';
-import { View } from '../types';
+import type { View } from '../types';
 
 interface SidebarProps {
   currentView: View;
