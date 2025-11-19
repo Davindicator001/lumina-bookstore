@@ -6,7 +6,7 @@ import BookList from './pages/BookList';
 import BookForm from './pages/BookForm';  
 import Settings from './pages/Settings';  
 import Login from './pages/Login';  
-import type { View, Book, Order } from './types';  
+import { View, Book, Order } from './types';  
 import { getBooks, getOrders, addBookToDB, updateBookInDB } from './services/firebase';  
   
 const App: React.FC = () => {  
